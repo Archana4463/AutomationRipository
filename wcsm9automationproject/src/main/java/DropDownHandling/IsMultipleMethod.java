@@ -18,10 +18,9 @@ public class IsMultipleMethod {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.get("https://demoapps.qspiders.com/");
 		//click on dropdown
-		 driver.findElement(By.xpath("//section[text()='Dropdown']"));
-		// driver.findElement(By.partialLinkText("Multi Select")).click();
+		 driver.findElement(By.xpath("//section[text()='Dropdown']")).click();
 		//single select dropdown
-		//WebElement dropDown1=driver.findElement(By.xpath("//label[text()='City']/following-sibling::select"));
+		WebElement dropDown1=driver.findElement(By.xpath(""));
 		//Select sel=new Select(dropDown1);
 	    //Boolean status = sel.isMultiple();
 	   // System.out.println(status);

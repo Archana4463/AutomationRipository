@@ -22,7 +22,7 @@ public class GetFirstMethod {
 	  //select option from dropdown
 	//sel.selectByIndex("V")
 	  //get option which is selected first
-	=  sel.getFirstSelectedOption()
+	   
 	  
 	  
 	
