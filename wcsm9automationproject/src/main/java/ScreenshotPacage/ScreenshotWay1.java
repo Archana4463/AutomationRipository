@@ -23,7 +23,7 @@ public class ScreenshotWay1 {
 	        driver.get("https://demoapps.qspiders.com/");
 	        //take a ss of demoapps
 	      File src = driver.getScreenshotAs(OutputType.FILE);
-	      File dest = new File("./Scrinshots/demoappsSS.jpg");
+	      File dest = new File("./Screenshots/demoapps.jpg");
 	       Files.copy(src, dest);
 	      
 	        
